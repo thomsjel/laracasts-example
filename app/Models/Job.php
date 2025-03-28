@@ -11,24 +11,18 @@ class Job{
             [
                 'id' => 1,
                 'title' => 'PHP Developer',
-                'description' => 'This is an awesome job!!!',
-                'location' => 'Remote',
                 'salary' => '$60,000',
                 'tags' => ['PHP', 'Remote']
             ],
             [
                 'id' => 2,
                 'title' => 'Python Developer',
-                'description' => 'This is a foo job!!!',
-                'location' => 'Remote',
                 'salary' => '$70,000',
                 'tags' => ['Python', 'Remote']
             ],
             [
                 'id' => 3,
                 'title' => 'React Developer',
-                'description' => 'This is also a cool job!!!',
-                'location' => 'Remote',
                 'salary' => '$80,000',
                 'tags' => ['React', 'Remote']
             ]
