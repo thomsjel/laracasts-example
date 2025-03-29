@@ -24,3 +24,8 @@ Route::get('/jobs/{id}', function($id) {
 Route::get('/contact', function(){
     return view('contact');
 });
+
+Route::get('/create-jobs', function(){
+    App\Models\Job::factory(120)->create();
+    return '120 jobs created';
+});
